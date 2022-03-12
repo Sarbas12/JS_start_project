@@ -1,43 +1,39 @@
-function yourName() {
-    let yourName = prompt('Как тебя зовут?');
-    alert(`Привет, ${yourName}!`);
-}
-
 function plus() {
-    let a = prompt('Введите первое значение');
-    let b = prompt('Введите второе значение');
+    let num1, num2, result;
+    num1 = document.getElementById('n1').value;
 
-    alert(Number(a) + Number(b));
+    num2 = document.getElementById('n2').value;
+
+    result = Number(num1) + Number(num2);
+    document.getElementById('out').value = result;
 }
 
 function minus() {
-    let a = prompt('Введите первое значение');
-    let b = prompt('Введите второе значение');
+    let num1, num2, result;
+    num1 = document.getElementById('n1').value;
 
-    alert(Number(a) - Number(b));
+    num2 = document.getElementById('n2').value;
+
+    result = Number(num1) - Number(num2);
+    document.getElementById('out').value = result;
 }
 
 function times() {
-    let a = prompt('Введите первое значение');
-    let b = prompt('Введите второе значение');
+    let num1, num2, result;
+    num1 = document.getElementById('n1').value;
 
-    alert(Number(a) * Number(b));
+    num2 = document.getElementById('n2').value;
+
+    result = Number(num1) * Number(num2);
+    document.getElementById('out').value = result;
 }
 
 function divide() {
-    let a = prompt('Введите первое значение');
-    let b = prompt('Введите второе значение');
+    let num1, num2, result;
+    num1 = document.getElementById('n1').value;
 
-    alert(Number(a) / Number(b));
+    num2 = document.getElementById('n2').value;
+
+    result = Number(num1) / Number(num2);
+    document.getElementById('out').value = result;
 }
-
-function sum(a, b) {
-    return 3 + 3;
-}
-sum();
-
-// function sayHi() {
-//     alert("Привет");
-// }
-
-// sayHi();

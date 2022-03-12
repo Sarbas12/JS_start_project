@@ -5,68 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Привет, мир!</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <title>Калькулятор</title>
 
 </head>
 
-<body>
-    <h2 class="main-title">JavaScript Steps</h2>
-    <!-- <div class="pressMe btn">
-        <button onclick=" yourName ();">Нажми меня</button> -->
-    <!-- </div> -->
-    <!-- Начало сценария -->
-    <h3 class="sub-title">Калькулятор</h3>
-    <!-- <input class="main-operator btn"><br> -->
-    <form>
-        <td>Введите первое значение:</td>
-        <input type="text" name="firstNumber"></input><br>
-        <td>Выберите один из операторов:</td>
-
-        <div class="sub-operator btn border-bottom" onclick=" plus ();">+</div>
-        <div class="sub-operator btn border-bottom" onclick=" minus ();">-</div>
-        <div class="sub-operator btn border-bottom" onclick=" times ();">x</div>
-        <div class="sub-operator btn border-bottom" onclick=" divide ();">/</div>
-        <input class="main-operator btn"><br>
-        <td>Введите второе значение:</td>
-        <input type="text"></input><br>
-        <td>Ваш результат:</td>
-        <input type="text"></input><br>
-
-    </form>
-
-    <!-- <form name="search">
-        <label>Поиск:
-            <input type="text" name="search"> </label>
-        <input type="submit" value="Search!"> </form>
-    <hr> -->
-    <!-- <form name="search-person">Поиск по посетителям:
-        <table id="age-table">
-            <tr>
-                <td>Возраст:</td>
-                <td id="age-list">
-                    <label>
-                        <input type="radio" name="age" value="young">до 18</label>
-                    <label>
-                        <input type="radio" name="age" value="mature">18-50</label>
-                    <label>
-                        <input type="radio" name="age" value="senior">старше 50</label>
-                </td>
-            </tr>
-            <tr>
-                <td>Дополнительно:</td>
-                <td>
-                    <input type="text" name="info">
-                    <input type="text" name="info">
-                    <input type="text" name="info"> </td>
-            </tr>
-        </table>
-        <input type="button" value="Search!"> </form>
-
-</html>
-<script src="assets/js/index.js"></script> -->
+<br>
+<!-- Начало сценария -->
+<h3 class="title">Калькулятор</h3>
+<p>Введите первое значение: <input type="text" id="n1"></p>
+<p>Введите второе значение: <input type="text" id="n2"></p>
+<br>
+<button onclick=" plus ()">Сложить +</button>
+<button onclick=" minus ()">Вычесть -</button></br>
+<button onclick=" times ()">Умножить *</button>
+<button onclick=" divide ()">Разделить /</button>
+<hr>
+<p>Ваш результат: <input type="text" id="out"></p>
+<script src="assets/js/index.js"></script>
 </body>
 
 </html>
