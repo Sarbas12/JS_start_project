@@ -16,12 +16,59 @@
 <p>Введите второе значение: <input type="text" id="n2"></p>
 <br>
 <button onclick=" plus ()">Сложить +</button>
-<button onclick=" minus ()">Вычесть -</button></br>
+<button onclick=" minus ()">Вычесть -</button>
 <button onclick=" times ()">Умножить *</button>
 <button onclick=" divide ()">Разделить /</button>
 <hr>
 <p>Ваш результат: <input type="text" id="out"></p>
+
+<h3>Цветы</h3>
+<div>
+    <div onclick="changeColor ()" id="flower">Roses</div>
+    <div onclick="changeColor ()" id="flower">Peonies</div>
+    <div onclick="changeColor ()" id="flower">Orchid</div>
+</div>
+
+<h3>Переход на другую страницу с помощью JS</h3>
+<button id="mybutton" onclick=" mybutton ()">About JavaScript</button>
+
+<h3>Преобразование на стрелочную функцию приветствие</h3>
+<button onclick=" yourName ();">Нажми меня</button>
+
+<h3>Вопрос №7 из ДЗ</h3>
+<form name="search">
+    <label>Поиск:
+        <input type="text" name="search"> </label>
+    <input type="submit" value="Search!"> </form>
+<hr>
+<form name="search-person">Поиск по посетителям:
+    <table id="age-table">
+        <tr>
+            <td>Возраст:</td>
+            <td id="age-list">
+                <label>
+                    <input type="radio" name="age" value="young">до 18</label>
+                <label>
+                    <input type="radio" name="age" value="mature">18-50</label>
+                <label>
+                    <input type="radio" name="age" value="senior">старше 50</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Дополнительно:</td>
+            <td>
+                <input type="text" name="info">
+                <input type="text" name="info">
+                <input type="text" name="info"> </td>
+        </tr>
+    </table>
+    <input type="button" value="Search!"> </form>
+</body>
+
+</html>
+
 <script src="assets/js/index.js"></script>
 </body>
+
 
 </html>
